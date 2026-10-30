@@ -1,0 +1,42 @@
+{
+  "spec": "munder-difflin/agent@2",
+  "name": "Github Contribution",
+  "exportedAt": "2026-10-30T07:04:38.077Z",
+  "appVersion": "0.5.7",
+  "parts": [
+    "configs",
+    "mcpServers",
+    "skills",
+    "automations"
+  ],
+  "configs": {
+    "role": "GITHUB CONTRIBUTION ENGINEE",
+    "character": "phyllis",
+    "accent": "sky",
+    "provider": "claude",
+    "model": "claude-sonnet-5-5",
+    "isolate": false
+  },
+  "mcpServers": {
+    "catalog": [
+      "sequential-thinking",
+      "time",
+      "fetch",
+      "context7",
+      "filesystem",
+      "git"
+    ],
+    "custom": []
+  },
+  "skills": {
+    "catalog": [
+      "skill:internal-comms",
+      "skill:brand-guidelines"
+    ],
+    "custom": []
+  },
+  "automations": {
+    "schedules": [],
+    "webhooks": []
+  }
+}

@@ -1,0 +1,4 @@
+#!/bin/sh
+ENGINE="$(cd "$(dirname "$0")/.." && pwd)"
+command -v python >/dev/null 2>&1 && PY=python || PY=py
+exec "$PY" "$ENGINE/gate.py" push
